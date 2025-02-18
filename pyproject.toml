@@ -3,7 +3,7 @@ requires = ["setuptools >= 64.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rgevolve.smeft.warsaw-up"
+name = "rgevolve.smeft.warsaw_up"
 authors = [
     {name = "Aleks Smolkovič", email = "aleks.smolkovic@ijs.si"},
     {name = "Peter Stangl", email = "peter.stangl@cern.ch"},
@@ -18,10 +18,10 @@ dynamic = ["version"]
 
 [tool.setuptools.packages.find]
 where = ["src/"]
-include = ["rgevolve.smeft.warsaw-up"]
+include = ["rgevolve.smeft.warsaw_up"]
 
 [tool.setuptools.dynamic]
-version = {attr = "rgevolve.smeft.warsaw-up._version.__version__"}
+version = {attr = "rgevolve.smeft.warsaw_up._version.__version__"}
 
 [tool.setuptools.package-data]
-"rgevolve.smeft.warsaw-up" = ["data.h5"]
+"rgevolve.smeft.warsaw_up" = ["data.h5"]
